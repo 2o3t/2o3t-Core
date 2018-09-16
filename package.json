@@ -1,0 +1,37 @@
+{
+  "name": "2o3t-core",
+  "version": "0.0.1",
+  "description": "2o3t.cn --> Server Core ",
+  "main": "index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "export LOGGER=* && export NO_LOGGER=test,system && node ./test",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "zyao89",
+    "2o3t",
+    "core",
+    "loader"
+  ],
+  "author": "Zyao89 <zyao89@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 8.0.0"
+  },
+  "dependencies": {
+    "koa": "^2.5.2",
+    "koa-convert": "^1.2.0",
+    "koa-router": "^7.4.0",
+    "ready-callback": "^2.1.0",
+    "2o3t-utility": "../2o3t-utility",
+    "2o3t-logger": "../2o3t-logger"
+  },
+  "devDependencies": {
+    "eslint": "^5.5.0",
+    "eslint-config-egg": "^7.1.0",
+    "eslint-plugin-html": "^4.0.5"
+  }
+}
