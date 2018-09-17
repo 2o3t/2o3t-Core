@@ -16,6 +16,6 @@ app.beforeStart(async function() {
 })
 
 app.ready((err) => {
-    app.logger.debug('ready...', app.loader.mixin);
     app.logger.debug('ready...', app.loader);
+    app.logger.debug('ready...', app.loader.mixin);
 })
