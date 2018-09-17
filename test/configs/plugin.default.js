@@ -9,16 +9,16 @@
 
 exports.mixins = [ 'plugintest', 'c' ];
 
-exports['plugintest'] = {
+exports.plugintest = {
     middleware: { // 这里不能有 plugin
-        mixins: ['a-b', 'c-0']
+        mixins: [ 'a-b', 'c-0' ],
     },
-    plugin: false
+    plugin: false,
 };
 
-exports['c'] = {
+exports.c = {
     middleware: { // 这里不能有 plugin
-        mixins: ['a-b-1', 'c-0-1']
+        mixins: [ 'a-b-1', 'c-0-1' ],
     },
-    plugin: false
+    plugin: false,
 };

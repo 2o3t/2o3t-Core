@@ -5,7 +5,6 @@ module.exports = {
 
     user: {
         middlewares: [ 'bodyParse' ],
-        path: '/api/t',
-        prefix: 'c',
+        prefix: '/api/v1/user',
     },
 };
