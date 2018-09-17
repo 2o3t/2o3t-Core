@@ -6,4 +6,8 @@ module.exports = {
     bodyParse: {
         bo: 33,
     },
+
+    'a/a-b': {
+        enable: true,
+    },
 };

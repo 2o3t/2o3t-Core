@@ -1,4 +1,11 @@
+'use strict';
 
-module.exports = app => {
-    return function() {}
-}
+module.exports = async function(ctx, next) {
+    console.log('cc....');
+
+    console.log('m2m2m2');
+
+    await next();
+
+    console.log('end...');
+};

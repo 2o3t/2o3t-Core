@@ -10,15 +10,20 @@
 exports.mixins = [ 'plugintest', 'c' ];
 
 exports.plugintest = {
-    middleware: { // 这里不能有 plugin
-        mixins: [ 'a-b', 'c-0' ],
+    middleware: {
+        mixins: [ 'a-b', 'c-0', 'bodyParse' ],
     },
-    plugin: false,
+    controller: { // 不能乱配
+        mixins: [ 'user' ],
+    },
+    config: {
+        RPG: 'I AM Plugins',
+    },
 };
 
 exports.c = {
-    middleware: { // 这里不能有 plugin
+    middleware: {
         mixins: [ 'a-b-1', 'c-0-1' ],
     },
-    plugin: false,
+    plugin: false, // 这里不能有 plugin
 };
