@@ -9,20 +9,20 @@
 
 exports.mixins = [ 'plugintest', 'c' ];
 
-exports.plugintest = {
-    middleware: {
-        mixins: [ 'a-b', 'c-0', 'bodyParse' ],
-        bodyParse: {
-            enable: true,
-        },
-    },
-    controller: { // 不能乱配
-        mixins: [ 'user' ],
-    },
-    config: {
-        RPG: 'I AM Plugins',
-    },
-};
+// exports.plugintest = {
+//     // middleware: {
+//     //     mixins: [ 'a-b', 'c-0', 'bodyParse' ],
+//     //     bodyParse: {
+//     //         enable: true,
+//     //     },
+//     // },
+//     // controller: { // 不能乱配
+//     //     mixins: [ 'user' ],
+//     // },
+//     // config: {
+//     //     RPG: 'I AM Plugins',
+//     // },
+// };
 
 exports.c = {
     middleware: {

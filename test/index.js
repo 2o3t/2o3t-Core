@@ -23,5 +23,5 @@ app.ready(err => {
 });
 
 app.listen(3003, () => {
-    app.logger.info('ready...', 3003);
+    app.logger.error('ready...', 3003);
 });
