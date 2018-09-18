@@ -26,7 +26,7 @@ exports.mixins = [ 'plugintest', 'c' ];
 
 exports.c = {
     middleware: {
-        mixins: [ 'a-b-1', 'c-0-1' ],
+        // mixins: [ 'a-b-1', 'c-0-1' ],
     },
     plugin: false, // 这里不能有 plugin
 };

@@ -18,8 +18,8 @@ app.beforeStart(async function() {
 });
 
 app.ready(err => {
-    app.logger.debug('ready...', app.loader);
-    app.logger.debug('ready...', app.loader.mixin);
+    app.logger.debug.json('ready...', app.loader);
+    app.logger.system.json('ready...', app.loader.mixin);
 });
 
 app.listen(3003, () => {
