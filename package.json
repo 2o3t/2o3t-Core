@@ -24,6 +24,8 @@
   "dependencies": {
     "2o3t-logger": "file:../2o3t-logger",
     "2o3t-utility": "file:../2o3t-utility",
+    "http-proxy": "^1.17.0",
+    "inflection": "^1.12.0",
     "koa": "^2.5.3",
     "koa-convert": "^1.2.0",
     "koa-router": "^7.4.0",

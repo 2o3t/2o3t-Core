@@ -7,7 +7,7 @@
 //     },
 // };
 
-exports.mixins = [ 'plugintest', 'c' ];
+exports.mixins = [ 'plugintest', 'c', 'haha' ];
 
 // exports.plugintest = {
 //     // middleware: {

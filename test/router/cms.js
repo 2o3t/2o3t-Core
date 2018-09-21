@@ -5,4 +5,6 @@ module.exports = router => {
     app.logger.warn('i am router cms');
 
     router.get('/', app.loadController.user.index);
+
+    return router.new();
 };
