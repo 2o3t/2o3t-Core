@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = function(router) {
-    this.logger.warn('i am router user', this.middleware);
+    this.logger.warn.json('i am router user', this.middleware);
     router.get('/', this.controller.user.index);
 
     router.get('/test', router.new().routes());

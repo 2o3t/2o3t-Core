@@ -38,8 +38,9 @@
 如果想全局使用的话，可以在 `config/middlewares.${default}.js` 中单独配置，通过 `enable` 参数进行注册，如下：
 
 ```js
+    mixins: [], // 自动进行全局注册
     bodyParse: {
-        enable: true, // 自动全局注册
+        enable: true, // 自动全局注册(可选)
         bo: 33,
         c: 3,
     },
