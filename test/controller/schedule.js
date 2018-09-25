@@ -12,7 +12,7 @@ class ScheduleController {
 
     get(ctx) {
         this.logger.warn('I am ScheduleController get');
-        ctx.body = 'Schedule Controller get';
+        ctx.body = 'Schedule Controller get' + this.helper.hot('cctv');
     }
 }
 
