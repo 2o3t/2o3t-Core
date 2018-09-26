@@ -6,7 +6,6 @@ const app = new AppCore({
     baseDir: __dirname,
 });
 
-
 // app.beforeStart(async () => {
 //     await app.sleep(200);
 //     // app.logger.debug('beforeStart...')
