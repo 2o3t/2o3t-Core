@@ -32,8 +32,8 @@
     "koa": "^2.5.3",
     "koa-convert": "^1.2.0",
     "koa-router": "^7.4.0",
-    "plugintest": "file:../pluginTest",
-    "ready-callback": "^2.1.0"
+    "ready-callback": "^2.1.0",
+    "plugintest": "file:./pluginTest"
   },
   "devDependencies": {
     "@types/koa": "^2.0.46",

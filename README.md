@@ -204,9 +204,34 @@ this.logger
 
 待补充
 
+```js
+class UserService {
+
+    updateInfo() {
+        // do something
+    }
+}
+
+module.exports = UserService;
+```
+
 ## Router
 
 待补充
+
+```js
+module.exports = function(router) {
+    router.get('/', this.controller.user.index);
+    router.get('/test', router.new().routes());
+    // 代理透传
+    router.proxy('/p/fef91266a44c', {
+        target: 'https://www.baidu.com',
+        headers: {
+            '007': '008',
+        },
+    });
+};
+```
 
 ## Helper
 

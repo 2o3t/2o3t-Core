@@ -9,4 +9,8 @@ module.exports = {
     schedule: {
         prefix: '/schedule',
     },
+
+    cms: {
+        prefix: '/plugins',
+    },
 };

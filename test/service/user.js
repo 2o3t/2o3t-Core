@@ -2,8 +2,8 @@
 
 class UserService {
 
-    index() {
-
+    updateInfo() {
+        // do something
     }
 }
 
