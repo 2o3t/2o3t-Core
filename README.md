@@ -247,5 +247,8 @@ module.exports = function(router) {
 
 待补充
 
+> 引用 `2o3t-utility` 工具库
 
 ## Custom ？？？
+
+暂无

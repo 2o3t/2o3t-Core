@@ -13,5 +13,5 @@ module.exports = {
     config: {
         RPG: 'I AM Plugins',
     },
-    "555": "666"
-}
+    555: '666',
+};

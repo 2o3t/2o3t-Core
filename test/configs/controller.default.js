@@ -8,7 +8,7 @@ module.exports = app => {
 
         user: {
             name: 'xiao ming, 红',
-            // pkg: appInfo.pkg,
+            pkg: appInfo.pkg,
         },
     };
 };

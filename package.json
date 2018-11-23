@@ -1,15 +1,16 @@
 {
   "name": "2o3t-core",
   "version": "0.0.1",
-  "description": "2o3t.cn --> Server Core ",
+  "author": "Zyao89 <zyao89@gmail.com>",
+  "description": "[Server Library] 2o3t.cn --> Server Core, denend on KOA.",
   "main": "index.js",
   "files": [
-    "lib",
-    "types"
+    "lib/**/*",
+    "@types/**/*"
   ],
   "scripts": {
     "test": "node ./test",
-    "lint": "eslint ."
+    "lint": "eslint ./ --fix"
   },
   "keywords": [
     "zyao89",
@@ -18,29 +19,28 @@
     "loader",
     "koa"
   ],
-  "types": "types/**",
-  "author": "Zyao89 <zyao89@gmail.com>",
+  "types": "@types/**",
   "license": "MIT",
   "engines": {
     "node": ">= 8.0.0"
   },
   "dependencies": {
-    "2o3t-logger": "^0.3.1",
+    "2o3t-logger": "^0.3.3",
     "2o3t-utility": "^0.1.0",
     "http-proxy": "^1.17.0",
     "inflection": "^1.12.0",
-    "koa": "^2.5.3",
+    "koa": "^2.6.2",
     "koa-convert": "^1.2.0",
     "koa-router": "^7.4.0",
-    "ready-callback": "^2.1.0",
-    "plugintest": "file:./pluginTest"
+    "ready-callback": "^2.1.0"
   },
   "devDependencies": {
-    "@types/koa": "^2.0.46",
-    "@types/koa-router": "^7.0.32",
-    "babel-eslint": "^9.0.0",
-    "eslint": "^5.6.0",
-    "eslint-config-2o3t": "^1.0.0",
-    "eslint-plugin-html": "^4.0.6"
+    "plugintest": "file:./pluginTest",
+    "@types/koa": "^2.0.47",
+    "@types/koa-router": "^7.0.35",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.9.0",
+    "eslint-config-2o3t": "^1.1.1",
+    "eslint-plugin-html": "^5.0.0"
   }
 }
