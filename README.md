@@ -159,7 +159,7 @@ module.exports = {
 ```js
     mixins: [ 'bodyParse' ], // 自动进行全局顺序注册
     bodyParse: {
-        enable: true, // 自动全局注册(可选)
+        enable: true, // 开启自动全局注册(true-全局注册, false-不开启)
         bo: 33,
         c: 3,
     },

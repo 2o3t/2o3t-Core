@@ -1,12 +1,12 @@
 {
   "name": "2o3t-core",
-  "version": "0.0.1",
+  "version": "0.0.15",
   "author": "Zyao89 <zyao89@gmail.com>",
   "description": "[Server Library] 2o3t.cn --> Server Core, denend on KOA.",
   "main": "index.js",
   "files": [
-    "lib/**/*",
-    "@types/**/*"
+    "lib",
+    "@types"
   ],
   "scripts": {
     "test": "node ./test",
@@ -19,13 +19,13 @@
     "loader",
     "koa"
   ],
-  "types": "@types/**",
+  "types": "@types",
   "license": "MIT",
   "engines": {
     "node": ">= 8.0.0"
   },
   "dependencies": {
-    "2o3t-logger": "^0.3.3",
+    "2o3t-logger": "^0.3.6",
     "2o3t-utility": "^0.1.0",
     "http-proxy": "^1.17.0",
     "inflection": "^1.12.0",
@@ -40,7 +40,6 @@
     "@types/koa-router": "^7.0.35",
     "babel-eslint": "^10.0.1",
     "eslint": "^5.9.0",
-    "eslint-config-2o3t": "^1.1.1",
-    "eslint-plugin-html": "^5.0.0"
+    "eslint-config-2o3t": "^1.1.3"
   }
 }
