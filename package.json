@@ -1,6 +1,6 @@
 {
   "name": "2o3t-core",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "author": "Zyao89 <zyao89@gmail.com>",
   "description": "[Server Library] 2o3t.cn --> Server Core, denend on KOA.",
   "main": "index.js",
