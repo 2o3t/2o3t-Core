@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"2o3t-logger@^0.3.6":
-  version "0.3.6"
-  resolved "https://registry.yarnpkg.com/2o3t-logger/-/2o3t-logger-0.3.6.tgz#a1157828c12259f798e3c0473824112324e2d014"
+"2o3t-logger@^0.3.7":
+  version "0.3.7"
+  resolved "https://registry.yarnpkg.com/2o3t-logger/-/2o3t-logger-0.3.7.tgz#a3ba3d4e41786607fce26d4d850b01f6d340e643"
   dependencies:
     "2o3t-utility" "^0.1.0"
     log4js "^3.0.5"

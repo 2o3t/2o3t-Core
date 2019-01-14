@@ -1,45 +1,45 @@
 {
-  "name": "2o3t-core",
-  "version": "0.0.16",
-  "author": "Zyao89 <zyao89@gmail.com>",
-  "description": "[Server Library] 2o3t.cn --> Server Core, denend on KOA.",
-  "main": "index.js",
-  "files": [
-    "lib",
-    "@types"
-  ],
-  "scripts": {
-    "test": "node ./test",
-    "lint": "eslint ./ --fix"
-  },
-  "keywords": [
-    "zyao89",
-    "2o3t",
-    "core",
-    "loader",
-    "koa"
-  ],
-  "types": "@types",
-  "license": "MIT",
-  "engines": {
-    "node": ">= 8.0.0"
-  },
-  "dependencies": {
-    "2o3t-logger": "^0.3.6",
-    "2o3t-utility": "^0.1.0",
-    "http-proxy": "^1.17.0",
-    "inflection": "^1.12.0",
-    "koa": "^2.6.2",
-    "koa-convert": "^1.2.0",
-    "koa-router": "^7.4.0",
-    "ready-callback": "^2.1.0"
-  },
-  "devDependencies": {
-    "plugintest": "file:./pluginTest",
-    "@types/koa": "^2.0.47",
-    "@types/koa-router": "^7.0.35",
-    "babel-eslint": "^10.0.1",
-    "eslint": "^5.9.0",
-    "eslint-config-2o3t": "^1.1.3"
-  }
+    "name": "2o3t-core",
+    "version": "0.0.23",
+    "author": "Zyao89 <zyao89@gmail.com>",
+    "description": "[Server Library] 2o3t.cn --> Server Core, denend on KOA.",
+    "main": "index.js",
+    "files": [
+        "lib",
+        "@types"
+    ],
+    "scripts": {
+        "test": "node ./test",
+        "lint": "eslint ./ --fix"
+    },
+    "keywords": [
+        "zyao89",
+        "2o3t",
+        "core",
+        "loader",
+        "koa"
+    ],
+    "types": "@types",
+    "license": "MIT",
+    "engines": {
+        "node": ">= 8.0.0"
+    },
+    "dependencies": {
+        "2o3t-logger": "^0.3.7",
+        "2o3t-utility": "^0.1.0",
+        "http-proxy": "^1.17.0",
+        "inflection": "^1.12.0",
+        "koa": "^2.6.2",
+        "koa-convert": "^1.2.0",
+        "koa-router": "^7.4.0",
+        "ready-callback": "^2.1.0"
+    },
+    "devDependencies": {
+        "plugintest": "file:./pluginTest",
+        "@types/koa": "^2.0.47",
+        "@types/koa-router": "^7.0.35",
+        "babel-eslint": "^10.0.1",
+        "eslint": "^5.9.0",
+        "eslint-config-2o3t": "^1.1.3"
+    }
 }
