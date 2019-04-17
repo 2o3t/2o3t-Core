@@ -1,6 +1,6 @@
 {
     "name": "2o3t-core",
-    "version": "0.0.23",
+    "version": "0.0.30",
     "author": "Zyao89 <zyao89@gmail.com>",
     "description": "[Server Library] 2o3t.cn --> Server Core, denend on KOA.",
     "main": "index.js",
@@ -26,10 +26,10 @@
     },
     "dependencies": {
         "2o3t-logger": "^0.3.7",
-        "2o3t-utility": "^0.1.0",
+        "2o3t-utility": "^0.1.1",
         "http-proxy": "^1.17.0",
         "inflection": "^1.12.0",
-        "koa": "^2.6.2",
+        "koa": "^2.7.0",
         "koa-convert": "^1.2.0",
         "koa-router": "^7.4.0",
         "ready-callback": "^2.1.0"

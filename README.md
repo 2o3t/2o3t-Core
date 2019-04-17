@@ -47,6 +47,8 @@ ROOT: {
     LOGGER_BAN=NULL # 不开启禁用
     LOGGER_BAN=* # 全部禁用
     LOGGER_BAN=TEST,SYSTEM # 部分禁用
+
+    CORE_NAME=2O3T-Core # 应用名称
 ```
 
 配置文件支持类型 [ `js` | `json` ]
