@@ -26,10 +26,10 @@
     mz "^2.7.0"
     unescape "^1.0.1"
 
-"@2o3t/koa2-proxy-middleware@^0.0.1":
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/@2o3t/koa2-proxy-middleware/-/koa2-proxy-middleware-0.0.1.tgz#52587ebf75f11bc6aa02c0773bd05f3e1c146fc2"
-  integrity sha512-yXm51RkguCZxCABsGwQe4UpABX2pjv3jh0rfHO2DhbsVULmjPVJayn/q1qawiJ0gEOmNIjmhGQ53JKsZWBXE1Q==
+"@2o3t/koa2-proxy-middleware@^0.0.4":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@2o3t/koa2-proxy-middleware/-/koa2-proxy-middleware-0.0.4.tgz#5041983b5ededb4fdabe519d432927be5f4c01c1"
+  integrity sha512-wCWk0wFZMLA1S8NVzsrJyuQcDP8Wjj+yOYNgqgRWI0tEnyywwrIaU6E+70Go35RJT7jg8lHcfscv9dfNABY/Sg==
   dependencies:
     "2o3t-logger" "^0.3.9"
     "2o3t-utility" "^0.1.2"
@@ -180,9 +180,21 @@
   dependencies:
     "@types/koa" "*"
 
-"@types/koa@*", "@types/koa@^2.0.47":
+"@types/koa@*":
   version "2.0.47"
   resolved "https://registry.yarnpkg.com/@types/koa/-/koa-2.0.47.tgz#ac7854384a4cc49c16593c86acd99e636a48142a"
+  dependencies:
+    "@types/accepts" "*"
+    "@types/cookies" "*"
+    "@types/http-assert" "*"
+    "@types/keygrip" "*"
+    "@types/koa-compose" "*"
+    "@types/node" "*"
+
+"@types/koa@^2.0.48":
+  version "2.0.48"
+  resolved "https://registry.yarnpkg.com/@types/koa/-/koa-2.0.48.tgz#29162783029d3e5df8b58c55f6bf0d35f78fc39f"
+  integrity sha512-CiIUYhHlOFJhSCTmsFoFkV2t9ij1JwW26nt0W9XZoWTvmAw6zTE0+k3IAoGICtjzIfhZpZcO323NHmI1LGmdDw==
   dependencies:
     "@types/accepts" "*"
     "@types/cookies" "*"
