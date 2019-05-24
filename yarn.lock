@@ -2,13 +2,6 @@
 # yarn lockfile v1
 
 
-"2o3t-logger@^0.3.7":
-  version "0.3.7"
-  resolved "https://registry.yarnpkg.com/2o3t-logger/-/2o3t-logger-0.3.7.tgz#a3ba3d4e41786607fce26d4d850b01f6d340e643"
-  dependencies:
-    "2o3t-utility" "^0.1.0"
-    log4js "^3.0.5"
-
 "2o3t-logger@^0.3.9":
   version "0.3.9"
   resolved "https://registry.yarnpkg.com/2o3t-logger/-/2o3t-logger-0.3.9.tgz#e6b2e9f5ea91552ca6e9ca22e88334c75b66a7b0"
@@ -17,21 +10,7 @@
     "2o3t-utility" "^0.1.2"
     log4js "^3.0.6"
 
-"2o3t-utility@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/2o3t-utility/-/2o3t-utility-0.1.0.tgz#5e0faa30bef83b2fcbd44f0d1bb43f4eb4351c09"
-  dependencies:
-    co "^4.6.0"
-    escape-html "^1.0.3"
-    is-glob "^4.0.0"
-    is-type-of "^1.2.0"
-    lodash "^4.17.11"
-    micromatch "^3.1.10"
-    mkdirp "^0.5.1"
-    mz "^2.7.0"
-    unescape "^1.0.1"
-
-"2o3t-utility@^0.1.1", "2o3t-utility@^0.1.2":
+"2o3t-utility@^0.1.2":
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/2o3t-utility/-/2o3t-utility-0.1.2.tgz#510bb5ffa527454684f2d2758398ce70cc0fb267"
   integrity sha512-hUWnoTwZEC12+rQ81AxotIdzY760MFt1/T8GO4hNxzrYbxT1+nPvVcNG42iBzS7KOlGyrp8vPLDR7FWpcUiyBg==
@@ -1329,7 +1308,7 @@ is-symbol@^1.0.2:
   dependencies:
     has-symbols "^1.0.0"
 
-is-type-of@^1.0.0, is-type-of@^1.2.0, is-type-of@^1.2.1:
+is-type-of@^1.0.0, is-type-of@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/is-type-of/-/is-type-of-1.2.1.tgz#e263ec3857aceb4f28c47130ec78db09a920f8c5"
   dependencies:
@@ -1516,7 +1495,7 @@ lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.4, lodash@^4.17.5:
   version "4.17.11"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
 
-log4js@^3.0.5, log4js@^3.0.6:
+log4js@^3.0.6:
   version "3.0.6"
   resolved "https://registry.yarnpkg.com/log4js/-/log4js-3.0.6.tgz#e6caced94967eeeb9ce399f9f8682a4b2b28c8ff"
   dependencies:
